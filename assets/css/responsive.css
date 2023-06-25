@@ -1,0 +1,679 @@
+/***************** media queriy *************************************/
+@media only screen and (max-width:1348px) {
+
+    /* mission */
+    .mission-1-img-box {
+        width: 450px;
+    }
+    .mission-1-heading h2 {
+        padding-bottom: 20px;
+    }
+
+    /* choose */
+    .choose iframe{
+        width: 400px;
+        height: 280px;
+    }
+    .choose-box-1 {
+        padding: 90px 45px;
+    }
+    .choose-2-quote {
+        width: 40px;
+        margin: 10px 0px 0 40px;
+    }
+    
+}
+
+
+
+
+
+/*-------- Big tablet view -------------*/
+@media only screen and (max-width: 1024px) {
+
+    /* top-bar */
+    .top-bar .width-25,
+    .top-bar .width-30 {
+        width: 33.33%;
+    }
+    .top-bar .width-20 {
+        width: 100%;
+    }
+    .top-social-box {
+        padding-top: 20px;
+    }
+    .top-social-box {
+        justify-content: center;
+    }
+
+    /* header */
+    .header {
+        padding: 28px 0;
+    }
+    .navbar ul li {
+        padding: 0px 17px;
+        font-size: 14px;
+    }
+
+
+
+    /* home */
+    body h1{
+        font-size: 40px;
+    }
+    .home{
+        padding: 100px 0;
+    }
+    .home-text{
+        font-size: 20px;
+    }
+    .home-btn-link{
+        padding: 12px 27px;
+        font-size: 17px;
+    }
+
+
+    /* service */
+    .service{
+        padding: 70px;
+    }
+    body h2{
+        font-size: 32px;
+    }
+    .service-content-box{
+        margin: 30px 10px 0;
+    }
+    .service-sub-title p{
+        font-size: 18px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .service-text p{
+        font-size: 15px;
+    }
+    .service-content-box::after{
+        bottom: -5px;
+        left: 0;
+    }
+    .service-content-box::before{
+        top: 20px;
+        right: 0;
+    }
+
+
+
+    /* team */
+    .team .width-25{
+        width: 33.33%;
+    }
+
+
+    /* number */
+    .number{
+        padding: 70px 0;
+    }
+    .number-icon-box{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .number-text p{
+        font-size: 37px;
+    }
+    .number-sub-text p{
+        font-size: 20px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+/*-------- tablet view -------------*/
+@media only screen and (max-width: 991px) {
+
+    /* top-bar */
+    .top-bar .width-25,
+    .top-bar .width-30,
+    .top-bar .width-20 {
+        width: 50%;
+    }
+    .top-social-box {
+        padding-top: 10px;
+    }
+    .top-box-media {
+        padding-top: 10px;
+    }
+    .top-social-box {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    /* header */
+    .header {
+        padding: 25px 0;
+    }
+    .logo-box{
+        height: 35px;
+        width: 35px;
+    }
+    .navbar ul li {
+        padding: 0px 15px;
+        font-size: 13px;
+    }
+    .nav-down-arrow{
+        margin: 5px 0 0 5px;
+        width: 9px;
+        height: 9px;
+    }
+    .nav-search-box{
+        height: 18px;
+        width: 18px;
+    }
+
+    /* sevice */
+    .service{
+        padding: 50px 0;
+    }
+    .service .width-33{
+        width: 50%;
+    }
+    body h2{
+        font-size: 35px;
+    }
+    .service-sub-title p{
+        font-size: 21px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .service-text p{
+        font-size: 17px;
+    }
+    .service-content-box::after{
+        bottom: -2px;
+        left: -10px;
+    }
+    .service-content-box::before{
+        top: 20px;
+        right: 0;
+        height: 15%;
+    } 
+
+
+    /* mission */
+    .mission-box-1 {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .mission .width-50{
+        width: 100%;
+    }
+    .mission-1-text p {
+        padding-right: 0px;
+    }
+    .mission-1-img-box {
+        height: 270px;
+        display: inline-block;
+    }
+    .mission-1-subtext p {
+        padding: 0px 0 18px;
+    }
+    .mission-bg-img-1 {
+        width: 100vw;
+    }
+    .mission-box-2 {
+        padding: 90px 0;
+    }
+    .mission-box-2::after {
+        width: 100vw;
+    }
+    .mission-text {
+        text-align: center;
+    }
+    .mission-2-list-menu {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+
+    /* choose */
+    .choose .width-50{
+        width: 100%;
+    }
+    .choose .row:first-child{
+        flex-direction: column-reverse;
+    }
+    .choose-box-2 {
+        padding: 70px 0;
+        text-align: center;
+    }
+    .choose-2-img-box iframe {
+        width: 500px;
+        height: 300px;
+    }
+    .choose .choose-box-2 .width-20{
+        display: none;
+    }
+    .choose .choose-box-2 .width-80{
+        width: 100%;
+    }
+    .choose-2-text p {
+        padding-right: 0px;
+    }
+    .choose-1-bg-position {
+        width: 100vw;
+    }
+    .choose-box-1::after {
+        width: 100vw;
+    }
+    .choose .choose-box-1 .width-20{
+        width: 10%;
+    }
+    .choose .choose-box-1 .width-80{
+        width: 90%;
+    }
+    
+
+
+     /* team */
+     .team-main-box{
+        padding: 50px 0px 0;
+    }
+
+    /* number */
+    .number-text p{
+        font-size: 33px;
+    }
+    .number-sub-text p{
+        font-size: 18px;
+    }
+
+
+    /* monials */
+    .monials{
+        padding: 50px 0;
+    }
+    .monials-main-box {
+        padding: 30px;
+    }
+    .monials .width-20{
+        width: 25%;
+    }
+    .monials .width-80{
+        width: 75%;
+    }
+
+    /* news */
+    .news .width-25{
+        width: 33.33%;
+    }
+
+
+    /* footer */
+    .footer .width-25{
+        width: 50%;
+    }
+    .foot-2-textbox{
+        padding-left: 0px;
+    }
+    .media-mt-5{
+        margin-top: 70px;
+    }
+    .footer .width-30{
+        width: 20%;
+    }
+    .footer .width-70{
+        width: 80%;
+    }
+   
+}
+
+
+
+
+
+
+/*---------- landscape mobile view -------------*/
+@media only screen and (max-width: 767px) {
+
+    /* top-bar */
+    .top-bar .width-25,
+    .top-bar .width-30,
+    .top-bar .width-20 {
+        width: 100%;
+    }
+    .top-social-box {
+        padding-top: 10px;
+    }
+    .top-box-media,
+    .top-timebox-media {
+        padding-top: 10px;
+    }
+    .top-social-box {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+
+    /* header */
+    .header {
+        padding: 10px 0;
+    }
+    .logo-box{
+        height: 30px;
+        width: 30px;
+    }
+    .navbar ul li{
+        display: none;
+    }
+    .nav-search-box{
+        height: 17px;
+        width: 17px;
+    }
+    .menu-box{
+        display: block;
+    }
+
+
+     /* home */
+    body h1{
+        font-size: 33px;
+    }
+    .home{
+        padding: 90px 0;
+    }
+    .home-text{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    .home-btn-link{
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+
+    /* service */
+    .service .width-33{
+        width: 100%;
+    }
+    body h2{
+        font-size: 28px;
+    }
+    .service-sub-title p{
+        font-size: 18px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    .service-text p{
+        font-size: 15px;
+    }
+    .service-content-box{
+        min-height: 200px;
+        padding: 0px 20px;
+        margin: 30px 0px 0;
+    }
+    .service-content-box::after{
+        bottom: -2px;
+        left: -10px;
+        height: 20%;
+        width:10% ;
+    }
+    .service-content-box::before{
+        top: 20px;
+        right: 0;
+        height: 20%;
+        width: 10%;
+    } 
+
+
+    /* mission */
+    .mission-2-text p {
+        padding: 0 25px;
+    }
+    .mission-1-img-box {
+        width: 400px;
+    }
+    /* choose */
+    .choose iframe{
+        width: 400px;
+        height: 280px;
+    }
+    .choose .choose-box-1 .width-20{
+        display: none;
+    }
+    .choose .choose-box-1 .width-80{
+        width: 100%;
+    }
+
+
+
+     /* team */
+     .team .width-25{
+        width: 50%;
+    }
+
+
+    /* number */
+    .number{
+        padding: 50px 0;
+    }
+    .number .width-25{
+        width: 50%;
+    }
+    .number-icon-box{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .number-text p{
+        font-size: 35px;
+    }
+    .number-sub-text p{
+        font-size: 18px;
+    }
+
+
+    /* invest */
+    .invest{
+        padding: 50px 0;
+    }
+    .invest .width-60,
+    .invest .width-40{
+        width: 100%;
+    }
+    .invest .width-50{
+        width: 100%;
+    }
+    .invest-2-left-box,
+    .invest-2-right-box{
+        text-align: center;
+    }
+    .down-line::after{
+        margin: 0;
+    }
+    .invest-40-box{
+        padding: 70px 0 100px;
+    }
+
+
+    /* monials */
+    .monials{
+        padding: 30px 0;
+    }
+    .monials .width-50{
+        width: 100%;
+    }
+    .monials-main-box {
+        padding: 30px;
+    }
+    .monials .width-20{
+        width: 15%;
+    }
+    .invest-pr-5 .invest-2-main-box{
+        padding: 30px 0 10px;
+    }
+    .invest-pl-5 .invest-2-main-box{
+        padding: 0px 0 30px;
+    }
+    .monials .width-80{
+        width: 85%;
+    }
+    .content-box::before {
+        top: 100%;
+        left: 45px;
+    }
+
+
+    /* news */
+    .news .width-25{
+        width: 50%;
+    }
+
+
+     /* logo-line */
+    .logo-line{
+        padding: 30px 0 10px;
+     }
+
+
+    /* footer */
+
+    .footer .width-25{
+        width: 100%;
+    }
+    .foot-2-textbox{
+        padding-left: 0px;
+    }
+    .media-mt-5{
+        margin-top: 70px;
+    }
+    .footer .width-30{
+        width: 10%;
+    }
+    .footer .width-70{
+        width: 90%;
+    }
+    .foot-2-textbox{
+        padding-left: 25px;
+    }
+    .media-mt-screen-5{
+        margin-top: 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+/*---------- portrait mobile view -------------*/
+@media only screen and (max-width: 480px) {
+    /* service */
+    .service-content-box{
+        min-height: 250px;
+    }
+    .service-content-box::after{
+        bottom: -1px;
+        left: 10px;
+        height: 10%;
+        width:10% ;
+    }
+    .service-content-box::before{
+        top: 20px;
+        right: 10px;
+        height: 10%;
+        width: 10%;
+    } 
+
+
+    /* mission */
+    .mission-1-img-box {
+        width: 300px;
+    }
+    .mission-1-subtext{
+        margin-top: -80px;
+    }
+    .mission-2-btn a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .mission-2-sub-heading p {
+        font-size: 18px;
+    }
+
+
+
+    /* choose */
+    .choose iframe{
+        width:280px;
+        height: 230px;
+    }
+
+
+     /* team */
+     .team .width-25{
+        width: 100%;
+    }
+    .team-main-box{
+        padding: 60px 20px 0;
+    }
+    .team-img-box{
+        height: 250px;
+    }
+    
+
+    /* number */
+    .number .width-25{
+        width: 100%;
+    }
+    .number-icon-box{
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    .number-text p{
+        font-size: 35px;
+    }
+    .number-sub-text p{
+        font-size: 18px;
+    }
+
+    /* monials */
+    .monials-main-box {
+        padding: 30px 10px ;
+    }
+    .monials .width-20{
+        width: 30%;
+    }
+    .monials .width-80{
+        width: 70%;
+    }
+
+
+    /* news */
+    .news{
+        padding: 50px 0;
+    }
+    .news .width-25{
+        width: 100%;
+    }
+
+
+    /* footer */
+    .footer .width-30{
+        width: 20%;
+    }
+    .footer .width-70{
+        width: 80%;
+    }
+    .foot-2-textbox{
+        padding-left: 25px;
+    }
+}
